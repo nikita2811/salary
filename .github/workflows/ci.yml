@@ -42,6 +42,7 @@ jobs:
           DJANGO_SETTINGS_MODULE: salary.settings
           SECRET_KEY: 'django-insecure-9&o5l$b$f17_24b%&!tdcfohvzi1rd3+yw$nwde8n8p$&)of7k'
         run: |
+          mkdir -p db 
           python manage.py migrate
 
       # -- Run tests 
