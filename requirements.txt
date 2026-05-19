@@ -9,3 +9,4 @@ factory-boy
 ruff
 django-environ
 gunicorn
+django-filter
