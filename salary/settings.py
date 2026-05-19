@@ -26,7 +26,7 @@ os.makedirs(LOGS_DIR, exist_ok=True)
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-9&o5l$b$f17_24b%&!tdcfohvzi1rd3+yw$nwde8n8p$&)of7k'
+SECRET_KEY = env('SECRET_KEY', default='django-insecure-9&o5l$b$f17_24b%&!tdcfohvzi1rd3+yw$nwde8n8p$&)of7k')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -142,7 +142,7 @@ LOGGING = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / 'db' / 'db.sqlite3',                                                                                                                                                                             
     }
 }
 
