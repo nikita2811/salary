@@ -1,5 +1,6 @@
 from employee.models import Employee
 import pytest
+from decimal import Decimal
 @pytest.mark.django_db
 class TestSearchEmployeeByName:
 
