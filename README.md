@@ -1,3 +1,5 @@
+
+
 # Salary Management Tool — Artifacts & Engineering Decisions
 
 ## 1. Development Approach: TDD
@@ -67,6 +69,8 @@ The seed script (`python manage.py seed`) is designed to be **re-runnable and pe
 - **Frontend** deployed on **https://salary-assign.vercel.app/**
 - **SQLite** is used as the relational database, persisted via a Docker named volume in local environments and via Render's persistent disk in production
 - **Gunicorn** is used as the production WSGI server
+## Demo Video
+[watch Demo Video][https://drive.google.com/file/d/1eh3JyMKyxzQpxApepGmZDanywOjRUNCM/view?usp=sharing]
 
 ---
 
