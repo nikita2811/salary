@@ -37,6 +37,8 @@ ALLOWED_HOSTS = ['localhost','salary-badt.onrender.com']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173", 
+    "https://salary-assign.vercel.app",
+
 ]
 
 
