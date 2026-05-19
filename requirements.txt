@@ -8,3 +8,4 @@ pytest-cov
 factory-boy
 ruff
 django-environ
+gunicorn
