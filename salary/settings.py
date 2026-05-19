@@ -33,7 +33,7 @@ DEBUG = True
 
 
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost','https://salary-badt.onrender.com']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173", 
